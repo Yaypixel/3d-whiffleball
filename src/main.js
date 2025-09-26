@@ -235,6 +235,8 @@ function sleep(ms) {
   return new Promise(resolve => setTimeout(resolve, ms));
 }
 
+//ahh hope this works
+
 document.addEventListener("keydown", async function (e) {
     if (e.code === "Space") {
         ballBody.setLinvel(new RAPIER.Vector3(0, 0, 0), true)
